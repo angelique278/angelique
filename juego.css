@@ -1,0 +1,23 @@
+.tablero {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+  }
+  
+  .casilla {
+    width: 50px;
+    height: 50px;
+    background-color: #eee;
+    cursor: pointer;
+  }
+  
+  .casilla:hover {
+    background-color: #ccc;
+  }
+  
+  #reiniciar {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
